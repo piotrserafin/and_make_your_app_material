@@ -1,4 +1,4 @@
-package com.example.xyzreader.ui;
+package pl.piotrserafin.xyzreader.ui;
 
 import android.app.LoaderManager;
 import android.content.BroadcastReceiver;
@@ -20,15 +20,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.xyzreader.R;
-import com.example.xyzreader.data.ArticleLoader;
-import com.example.xyzreader.data.ItemsContract;
-import com.example.xyzreader.data.UpdaterService;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
+
+import pl.piotrserafin.xyzreader.R;
+import pl.piotrserafin.xyzreader.data.ArticleLoader;
+import pl.piotrserafin.xyzreader.data.ItemsContract;
+import pl.piotrserafin.xyzreader.data.UpdaterService;
 
 /**
  * An activity representing a list of Articles. This activity has different presentations for

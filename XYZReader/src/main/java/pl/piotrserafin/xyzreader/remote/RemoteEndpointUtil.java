@@ -1,4 +1,4 @@
-package com.example.xyzreader.remote;
+package pl.piotrserafin.xyzreader.remote;
 
 import android.util.Log;
 
